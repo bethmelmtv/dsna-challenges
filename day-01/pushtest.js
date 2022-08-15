@@ -32,6 +32,14 @@ function reverseWords(sentence) {
   sentence.split("").reverse().join("")
 }
 
+function oddishOrEvenish(number) {
+  let numberEl = number.split().add()
+  if(numberEl % 2 == 0) {
+    return 'Evenish'
+  } else {
+    return "Oddish"
+  }
+
 
 
 // export function inventoryChecker(inventory, {itemName}) {
