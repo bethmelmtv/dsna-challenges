@@ -62,6 +62,21 @@ function anagrams(wordOne, wordTwo) {
   }
 }
 
+// function uniqueString(strings) {
+//   let anArray = []
+//   words = strings.split("")
+//   for (i in words) {
+//     if (i )
+//   }
+//   if ()
+//   for (word in strings) {
+//     const letter = word.split("")
+//     anArray.push(letter)
+//     for (i in letter) {
+//       if 
+//     }
+// }
+
 // export function inventoryChecker(inventory, {itemName}) {
 //   for(let i = 0; i < itemName, i+=1;) {
 //     if (i > 5) {
