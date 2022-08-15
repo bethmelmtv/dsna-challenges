@@ -32,6 +32,10 @@ function reverseWords(sentence) {
   sentence.split("").reverse().join("")
 }
 
+function titleCase(sentence) {
+  sentence.split("").charAt(0).toUpperCase().join("")
+}
+
 function oddishOrEvenish(number) {
   let numberEl = number.split().add()
   if(numberEl % 2 == 0) {
@@ -39,6 +43,7 @@ function oddishOrEvenish(number) {
   } else {
     return "Oddish"
   }
+  
 
 
 
