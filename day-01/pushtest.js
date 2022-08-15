@@ -44,7 +44,9 @@ function oddishOrEvenish(number) {
     return "Oddish"
   }
   
-
+  function at(arr, index) {
+    return arr[index]
+  }
 
 
 // export function inventoryChecker(inventory, {itemName}) {
