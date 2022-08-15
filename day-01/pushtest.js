@@ -12,6 +12,8 @@ export function fizzBuzz(number) {
          anArray.push('Fizz')
       } if(i % 5 == 0) {
            anArray.push('Buzz')
+      } if (i % 5==0 && i% 3 ==0){
+        anArray.push('FizzBuzz')
     } else {
        anArray.push(i) }
     return anArray;
@@ -44,10 +46,21 @@ function oddishOrEvenish(number) {
     return "Oddish"
   }
   
-  function at(arr, index) {
+function at(arr, index) {
     return arr[index]
-  }
+}
 
+function anagrams(wordOne, wordTwo) {
+  if (wordOne.length !== wordTwo) {
+    return false
+  } else {
+    first = wordOne.split("").sort().join("")
+    second = wordTwo.split("").sort().join("")
+    if(first == second) {
+      return true
+    }
+  }
+}
 
 // export function inventoryChecker(inventory, {itemName}) {
 //   for(let i = 0; i < itemName, i+=1;) {
