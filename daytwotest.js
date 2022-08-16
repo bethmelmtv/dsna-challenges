@@ -16,3 +16,13 @@ function filter(arr, predicate) {
   }
   return filtered;
 }
+
+function addStuff(string, punctutation) {
+  return string + punctutation;
+}
+
+function addPunctuation(punctuation) {
+  return (x) => addStuff(string, punctuation);
+}
+
+const addPunctuation = (punctuation) => (phrase) => phrase + punctuation;
